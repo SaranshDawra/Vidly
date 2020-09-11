@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --testEnvironment=node --watchAll --verbose"
+    "test": "jest --testEnvironment=node --watchAll --verbose --coverage --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "joi-objectid": "^3.0.1",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.20",
+    "moment": "^2.27.0",
     "mongoose": "^5.10.0",
     "winston": "^2.4.0",
     "winston-mongodb": "^3.0.0"
